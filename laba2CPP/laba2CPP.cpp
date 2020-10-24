@@ -5,12 +5,12 @@ int main()
     setlocale(LC_ALL, "Russian");
     double a1, b1, c1, a2, b2, c2;
     bool haveNoSol, haveOneSol, haveManySol;
-    cout << "Input a1\n"; cin >> a1; //êîýô. à ïåðâîãî óðàâíåíèÿ
-    cout << "Input a2\n"; cin >> a2; //êîýô. a âòîðîãî óðàâíåíèÿ
-    cout << "Input b1\n"; cin >> b1; //êîýô. b ïåðâîãî óðàâíåíèÿ
-    cout << "Input b2\n"; cin >> b2; //êîýô. b âòîðîãî óðàâíåíèÿ
-    cout << "Input c1\n"; cin >> c1; //êîýô. c ïåðâîãî óðàâíåíèÿ
-    cout << "Input c2\n"; cin >> c2; //êîýô. c âòîðîãî óðàâíåíèÿ
+    cout << "Input a1\n"; cin >> a1; //коэф. а первого уравнения
+    cout << "Input a2\n"; cin >> a2; //коэф. a второго уравнения
+    cout << "Input b1\n"; cin >> b1; //коэф. b первого уравнения
+    cout << "Input b2\n"; cin >> b2; //коэф. b второго уравнения
+    cout << "Input c1\n"; cin >> c1; //коэф. c первого уравнения
+    cout << "Input c2\n"; cin >> c2; //коэф. c второго уравнения
     if ((a1 / a2) == (b1 / b2) && (a1 / a2)  != (c1 / c2)) {
         cout << "System has no any solutions.\n";
         haveNoSol = true;
